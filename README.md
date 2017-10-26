@@ -1,0 +1,1 @@
+# Possible structure for project
