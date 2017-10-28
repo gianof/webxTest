@@ -12,7 +12,7 @@ var users = require('./routes/users');
 var mongoose = require("mongoose");
 
 //Connect to Mongo, local db named test (default of mongo)
-mongoose.connect('mongodb://localhost:27017/test');
+mongoose.connect('mongodb://root:webxpassword83@ds062919.mlab.com:62919/testx');
 var app = express();
 
 //assign the swig view engine to .html files
